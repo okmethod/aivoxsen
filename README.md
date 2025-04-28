@@ -1,4 +1,4 @@
-# my-static-site
+# aivoxsen - 愛誦撰アプリ
 
 `gh-pages` ブランチの静的アセットを Github Pages で公開する。
 
@@ -25,4 +25,4 @@
 
 - ブラウザでアクセス
 
-  https://okmethod.github.io/my-static-site/
+  https://okmethod.github.io/aivoxsen/
