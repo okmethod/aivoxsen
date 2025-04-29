@@ -1,6 +1,7 @@
 {
   "files.exclude": {
     "skeleton-app": true,
+    "vox-server": true,
   },
   "[makefile]": {
     "editor.insertSpaces": false,
