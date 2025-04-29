@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-  <title>My Static WebSite</title>
+  <title>愛誦撰アプリ</title>
 </svelte:head>
 
 <Toaster {toaster} rounded="rounded-lg" />
@@ -29,7 +29,7 @@
 {#if isLoaded}
   <header class="p-4 shadow-md bg-surface-100-900">
     <div class="flex justify-between items-center">
-      <a class="h5" href="./">My Static WebSite</a>
+      <a class="h5" href="./">愛誦撰アプリ</a>
       <nav>
         <ul class="flex space-x-4">
           <li><ThemeSwitchModal /></li>

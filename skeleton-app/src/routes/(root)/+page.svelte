@@ -8,7 +8,7 @@
 </script>
 
 <div class="flex flex-col items-center justify-center p-4">
-  <h2 class="h2">Welcome to My Static Site !</h2>
+  <h2 class="h2">美しい日本語は 美しい心を育む</h2>
 
   <div class="space-y-4 my-4">
     {#each data.buttonConfigs as config}

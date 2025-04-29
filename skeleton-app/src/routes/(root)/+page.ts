@@ -4,7 +4,7 @@ import { GITHUB_REPO_URL } from "$lib/constants/common";
 
 const contentLinks: TransitionContent[] = [
   {
-    label: "Example route",
+    label: "読み上げ",
     symbolSrc: { type: "icon", key: "mdi:page-next" },
     action: "navigate",
     target: "/example",
