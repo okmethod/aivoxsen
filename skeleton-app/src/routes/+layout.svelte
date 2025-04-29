@@ -7,6 +7,7 @@
   import { applyTheme } from "$lib/stores/theme";
   import { toaster } from "$lib/utils/toaster";
   import { navigateTo } from "$lib/utils/navigation";
+  import fetchHeartbeat from "$lib/api/fetchHeartbeat";
 
   let { children } = $props();
 
@@ -15,7 +16,7 @@
     function wait(ms: number) {
       return new Promise((resolve) => setTimeout(resolve, ms));
     }
-    await Promise.all([applyTheme(), wait(500)]);
+    await Promise.all([applyTheme(), fetchHeartbeat(window.fetch), wait(500)]);
     isLoaded = true;
   });
 </script>

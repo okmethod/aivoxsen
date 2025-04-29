@@ -59,4 +59,12 @@ export default defineConfig({
       },
     },
   ],
+  server: {
+    proxy: {
+      "/api": {
+        target: process.env.VITE_VOX_BASE_URL,
+        changeOrigin: true,
+      },
+    },
+  },
 });
